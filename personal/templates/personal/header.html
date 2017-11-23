@@ -6,6 +6,8 @@
 	<meta charset="utf-8" />
 	{% load staticfiles %}
 	<link rel="stylesheet" href="{% static 'personal/css/bootstrap.min.css' %}" type = "text/css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
 	
 	<style type="text/css">
@@ -18,13 +20,6 @@
 
 <body class="body" style="background-color:#8ec4ec">
 	<div class="container-fluid" style="min-height:95%; ">
-
-		<div class="jumbotron">
-			<h1>My First Bootstrap Project</h1>
-			<p>Welcome to the Jungle - this is a bootstrap css jumbotron!</p>
-			<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-		</div>
-
 		<div class="row">
 			  <div class="col-sm-2">
 				  <br>
@@ -43,6 +38,19 @@
 		<div class="row">
 		  <div class="col-sm-2">
 		  <br>
+
+			<div class="dropdown">
+			  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+			  <span class="caret"></span></button>
+			  <ul class="dropdown-menu">
+			    <li><a href="#">HTML</a></li>
+			    <li><a href="#">CSS</a></li>
+			    <li><a href="#">JavaScript</a></li>
+			  </ul>
+			</div>
+
+		<div class="well">Basic Well</div>
+
 
 		  <br>
 		   <!-- Great, til you resize. -->
